@@ -1,0 +1,35 @@
+html, body {
+  margin: 0;
+  padding: 0;
+}
+
+
+/* Special markdown rules for chakra drawer headers*/
+/* Add this to your CSS file */
+.markdown-content h1 {
+  color: #EB8143; /* Example color */
+  font-size: 30px; /* Example size for h1 */
+}
+
+.markdown-content h2 {
+  color: #EB8143; /* Different color for h2 */
+  font-size: 25px; /* Smaller size for h2 */
+}
+
+.markdown-content h3 {
+  color: #EB8143;
+  font-size: 20px;
+}
+
+.markdown-content ul, .markdown-content ol {
+  padding-left: 20px;  /* Adjust this value as needed */
+}
+
+.markdown-content li {
+  margin-left: 10px;  /* Adjust this value as needed */
+}
+
+.markdown-content p {
+  color: #5A8D78;
+}
+
